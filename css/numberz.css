@@ -13,7 +13,7 @@ section {
   height: 100vh;
 }
 
-// Alternate color scheme
+/*Alternate color scheme*/
 section:nth-of-type(even) {
  background-color: #373B44;
 }
