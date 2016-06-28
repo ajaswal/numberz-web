@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'HelveticaNeue';
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #FFF;
+  height: 100vh;
+}
+
+// Alternate color scheme
+section:nth-of-type(even) {
+ background-color: #373B44;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.numberz-logo {
+  background: url(../img/image2.png) no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+}
