@@ -139,3 +139,23 @@ nav>ul>li>a {
 .acc-collaboration {
   background: url(../img/new/acc_collaboration.png) no-repeat;
 }
+
+.comments-section-1 {
+  transform: translate(35%,15%);
+}
+
+.human-1 {
+  background: url(../img/new/human1.png) no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+}
+
+.comment-1 {
+  color: #888888;
+  font-size: 18px;
+  position: absolute;
+  left: 150px;
+  width: 400px;
+  top: 70px;
+}
