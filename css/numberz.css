@@ -79,6 +79,11 @@ nav>ul>li>a {
   font-size: 14px;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: #FFF;
+  color: #40CCED;
+}
+
 .signup-link {
   border: 1px solid #40CCED;
   border-radius: 10px;
