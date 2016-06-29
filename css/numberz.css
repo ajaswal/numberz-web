@@ -19,7 +19,7 @@ section {
 
 /*Alternate color scheme*/
 section:nth-of-type(odd) {
- background-color: #373B44;
+ background-color: #152844;
 }
 
 .uppercase {
@@ -158,4 +158,35 @@ nav>ul>li>a {
   left: 150px;
   width: 400px;
   top: 70px;
+}
+
+.padding-20 {
+  padding: 20px 50px;
+}
+
+.padding-30 {
+  padding: 30px 80px;
+}
+
+.primary-headline {
+  color: #33BBDB;
+  font-weight: lighter;
+}
+
+.supporting-text {
+  font-size: 22px;
+  font-weight: lighter;
+  color: #FFF;
+}
+
+.white-text-color {
+  color: #FFF;
+}
+
+.grey-text-color {
+  color: #5D5D5D;  
+}
+
+.font-18 {
+  font-size: 18px;
 }
