@@ -114,6 +114,12 @@ nav>ul>li>a {
   margin-left: 60px;
 }
 
+.logo-2 {
+  height: 75px;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
 .description {
   text-align: center;
   font-size: 22px;
@@ -138,6 +144,19 @@ nav>ul>li>a {
 
 .acc-collaboration {
   background: url(../img/new/acc_collaboration.png) no-repeat;
+}
+
+
+.download-transactions {
+  background: url(../img/new/download.png) no-repeat;
+}
+
+.reconcile-transactions {
+  background: url(../img/new/reconcile.png) no-repeat;
+}
+
+.multiple-excels {
+  background: url(../img/new/excels.png) no-repeat;
 }
 
 .comments-section-1 {
@@ -211,6 +230,11 @@ nav>ul>li>a {
   width: 100%;
 }
 
+.font-weight-light {
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
 @media only screen and (max-width: 500px) {
   .intro-heading {
     font-size: 2em;
@@ -221,7 +245,20 @@ nav>ul>li>a {
   .logo {
     margin-left: 40px;
   }
+  .download-transactions {
+    margin-left: 40%;
+  }
   .comment-1 {
     top: 20px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  .download-transactions {
+    margin-left: 40%;
   }
 }
