@@ -141,7 +141,10 @@ nav>ul>li>a {
 }
 
 .comments-section-1 {
-  transform: translate(35%,15%);
+  /*transform: translate(35%,15%);*/
+  position: relative;
+  margin-left: 40%;
+  margin-bottom: -30px;
 }
 
 .human-1 {
@@ -184,9 +187,24 @@ nav>ul>li>a {
 }
 
 .grey-text-color {
-  color: #5D5D5D;  
+  color: #5D5D5D;
 }
 
 .font-18 {
   font-size: 18px;
+}
+
+.left-image-position {
+  position: absolute;
+  left: 0;
+}
+
+.right-image-position {
+  position: absolute;
+  right: 5px;
+}
+
+.hero-bg {
+  height: 60vh;
+  width: 100%;
 }
