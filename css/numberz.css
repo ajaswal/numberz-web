@@ -111,13 +111,13 @@ nav>ul>li>a {
   width: 100%;
   height: 75px;
   position: relative;
-  left: 50px;
+  left: 60px;
 }
 
 .description {
   text-align: center;
   font-size: 22px;
-  padding-top: 20px;
+  padding: 20px 10px;
 }
 
 .inv-management {
@@ -158,11 +158,10 @@ nav>ul>li>a {
 .comment-1 {
   color: #888888;
   font-size: 18px;
-  margin-top: 40px;
-  /*position: absolute;*/
-  /*left: 150px;*/
-  /*width: 400px;*/
-  /*top: 70px;*/
+  position: absolute;
+  left: 0px;
+  width: 90%;
+  top: 70px;
 }
 
 .padding-20 {
@@ -210,4 +209,19 @@ nav>ul>li>a {
 .hero-bg {
   height: 60vh;
   width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .intro-heading {
+    font-size: 2em;
+  }
+  .intro-para {
+    font-size: 16px;
+  }
+  .logo {
+    left: 40px;
+  }
+  .comment-1 {
+    top: 20px;
+  }
 }
