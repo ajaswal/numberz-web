@@ -225,6 +225,14 @@ nav>ul>li>a {
   width: 100%;
 }
 
+.bottom-image-position {
+  margin-top: 0px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
 .hero-bg {
   height: 60vh;
   width: 100%;
